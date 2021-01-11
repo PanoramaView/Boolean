@@ -1,0 +1,70 @@
+body{
+  background-image:url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#rectangle{
+    background-color: rgba(0,0,0,0.6);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+nav{
+  background-color: #00ff00;
+  padding: 15px;
+}
+
+header, nav{
+  text-align: center;
+}
+header{
+  color: #00ff00;
+}
+
+section{
+  line-height: 0.8;
+}
+
+.LogoSpan{
+  display: inline-block;
+}
+.logo{
+  width: 40%;
+}
+
+div h3,p{
+  color: white;
+}
+
+div h3:before{
+  content: "\273F";
+}
+div p:nth-last-child(2):before{
+  content: "\27FC";
+}
+div > p{
+  opacity: 0.7;
+}
+hr{
+  border-radius: 5px;
+  margin-left:0;
+}
+
+.Gino22 hr{
+  border:15px solid #ffb84d;
+  width: 35%;
+}
+.Mike24 hr{
+  border:15px solid #00cc44;
+  width: 60%;
+}
+.Fede154 hr{
+  border:15px solid #990000;
+  width: 20%;
+}
